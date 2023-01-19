@@ -17,22 +17,22 @@ generateBtn.addEventListener("click", function() {
   if (length > 7 && length < 129) {
 
      userConfirm = window.confirm ("Great! Would you like to include Lower Case Letters?");
-      if (userConfirm) {
+      if (userConfirm == true) {
         characters = characters.concat(lowerCase);
       }
 
       userConfirm = window.confirm ("Great! Would you like to include Upper Case Letters?");
-      if (userConfirm) {
+      if (userConfirm == true) {
         characters = characters.concat(upperCase);
       }
 
       userConfirm = window.confirm ("Great! Would you like to include Numbers?");
-      if (userConfirm) {
+      if (userConfirm == true) {
         characters = characters.concat(numbers);
       }
 
       userConfirm = window.confirm ("Great! Would you like to include Special Characters?");
-      if (userConfirm) {
+      if (userConfirm == true) {
         characters = characters.concat(specialCharacters)
       }
   
