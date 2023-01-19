@@ -2,6 +2,8 @@
 
 ## Description
 
+https://patameglio.github.io/password-generator-refactor-code/
+
 This application will generate a random password between 8-128 characters.
 The password will ask if you would like to include:
 - lower case letters
