@@ -11,7 +11,8 @@ var userConfirm = (true);
 var generateBtn = document.querySelector("#generate");
 
 generateBtn.addEventListener("click", function() {
-  password = []
+  password = [];
+  characters = [];
   var length = window.prompt("Choose a password length between 8-128");
 
   if (length > 7 && length < 129) {
